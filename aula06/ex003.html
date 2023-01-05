@@ -24,10 +24,10 @@
     <h1>Ola , Mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        var n1 = Number.parseInt(window.prompt('Digite um numero')) // string
-        var n2 = Number.parseInt(window.prompt('Digite outro numero')) //string
+        var n1 = Number(window.prompt('Digite um numero')) // string
+        var n2 = Number(window.prompt('Digite outro numero')) //string
         var s = n1 + n2 
-        window.alert('a soma dos valores é ' + s)
+        window.alert(`A soma entre ${n1} e ${n2} é ${s} `)
         // + ( number + number) para adição
         // + (string + string) para concatenação
     </script>
